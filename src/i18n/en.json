@@ -1,0 +1,64 @@
+{
+  "home": {
+    "title": "Hello, I'm",
+    "subtitle": "Frontend Developer",
+    "aboutShort": "I build modern web applications using React and TypeScript, focusing on clean code, UX and real business needs.",
+    "downloadCv": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraphs": [
+      "I am a Frontend Developer with over 3 years of commercial experience, specializing in React. I became interested in programming during my first studies and quickly decided to pursue this path professionally.",
+      "I started my career as a Backend Developer, which gave me solid technical foundations and a good understanding of how applications work behind the scenes. At the same time, I had the opportunity to develop my frontend skills — and it was this area that turned out to be the most rewarding for me. Eventually, I decided to focus on building user interfaces, combining aesthetics with functionality.",
+      "I have experience working in a product-driven team environment, collaborating on a daily basis with other frontend and backend developers, as well as designers and the product team. I actively participated in code reviews, both as a reviewer and as someone receiving feedback, which helped me develop good engineering practices, responsibility for code quality, and strong technical communication skills.",
+      "I enjoy experimenting with new technologies, continuously expanding my skill set, and sharing knowledge with other team members. Outside of work, I strive to maintain a healthy balance — in my free time I enjoy rock climbing, hiking in the mountains, and spending time close to nature."
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "education": "Education",
+    "job": "Job Experience",
+    "present": "present",
+
+    "educationItems": {
+      "agh": "AGH University of Science and Technology",
+      "bscGeoinformatics": "BSc – Geoinformatics",
+      "mscAppliedGeophysics": "MSc – Applied Geophysics",
+      "bscGeophysics": "BSc – Geophysics"
+    },
+    "jobs": {
+      "apriside": {
+        "description": [
+          "Developing and maintaining frontend features across multiple company products.",
+          "Close collaboration with backend developers and product teams.",
+          "Conducting code reviews to ensure code quality and consistency.",
+          "Managing and maintaining code repositories.",
+          "Contributing to the development of company portfolio websites built with Angular – outside my primary stack, but with quick adaptation."
+        ]
+      },
+
+      "ideo": {
+        "roles": {
+          "intern": "Web Developer Intern (PHP, Laravel)"
+        },
+        "description": [
+          "Monthly internship focused on building web applications using PHP and the Laravel framework."
+        ]
+      }
+    }
+  },
+  "technologies": {
+    "title": "Technologies"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Send Email"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  }
+}

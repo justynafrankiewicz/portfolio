@@ -1,0 +1,46 @@
+:root {
+  /* Light Mode */
+  --color-bg: #ffffff;
+  --color-bg-alt: #f3f4f6;
+  --color-text: #111827;
+  --color-primary: #3b82f6;
+  --color-secondary: #10b981;
+  --color-gray: #6b7280;
+}
+
+.dark {
+  /* Dark Mode */
+  --color-bg: #111827;
+  --color-bg-alt: #1f2937;
+  --color-text: #f9fafb;
+  --color-primary: #3b82f6;
+  --color-secondary: #34d399;
+
+  --color-gray: #9ca3af;
+}
+
+/* Tailwind Utilities */
+.bg-base {
+  background-color: var(--color-bg);
+}
+.bg-alt {
+  background-color: var(--color-bg-alt);
+}
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.bg-gray {
+  background-color: var(--color-gray);
+}
+.text-base {
+  color: var(--color-text);
+}
+.text-primary {
+  color: var(--color-primary);
+}
+.text-secondary {
+  color: var(--color-secondary);
+}
+.text-gray {
+  color: var(--color-gray);
+}
