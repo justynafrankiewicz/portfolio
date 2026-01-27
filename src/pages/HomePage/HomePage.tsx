@@ -6,7 +6,7 @@ import { ButtonLink } from "@/components/UI/ButtonLink";
 
 import { AboutMe } from "../AboutMe/AboutMe";
 import { Contact } from "../Contact/Contact";
-import { Experience } from "../Experience/experience";
+import { Experience } from "../Experience/Experience";
 import { Technologies } from "../Technologies/Technologies";
 
 export const HomePage = () => {

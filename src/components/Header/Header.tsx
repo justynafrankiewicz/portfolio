@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import { NavButtonLink } from "@/components/ui/NavButtonLink";
+import { NavButtonLink } from "@/components/UI/NavButtonLink";
 
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { ThemeSwitcher } from "./ThemeSwitcher";
@@ -24,27 +24,11 @@ export const Header = () => {
       </a>
 
       <nav className="flex items-center space-x-4 md:space-x-6">
-        <NavButtonLink
-          href="#about"
-          variant="secondary"
-          className="text-sm md:text-base px-3 py-2"
-        >
-          {t("about.title")}
-        </NavButtonLink>
-        <NavButtonLink
-          href="#experience"
-          variant="secondary"
-          className="text-sm md:text-base px-3 py-2"
-        >
+        <NavButtonLink href="#about">{t("about.title")}</NavButtonLink>
+        <NavButtonLink href="#experience">
           {t("experience.title")}
         </NavButtonLink>
-        <NavButtonLink
-          href="#contact"
-          variant="secondary"
-          className="text-sm md:text-base px-3 py-2"
-        >
-          {t("contact.title")}
-        </NavButtonLink>
+        <NavButtonLink href="#contact">{t("contact.title")}</NavButtonLink>
 
         <div className="flex items-center space-x-3 ml-4">
           <LanguageSwitcher />

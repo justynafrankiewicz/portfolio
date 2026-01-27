@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-import { ButtonLink } from "@/components/ui/ButtonLink";
+import { ButtonLink } from "@/components/UI/ButtonLink";
 
 export const Contact = () => {
   const { t } = useTranslation();
