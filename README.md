@@ -15,6 +15,8 @@ The website showcases:
 
 This portfolio is built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, **Framer Motion**, and **i18next** for translations.
 
+🌐 **Live Demo:** [justynafrankiewicz.github.io/portfolio/](https://justynafrankiewicz.github.io/portfolio/)
+
 ---
 
 ## 🚀 Running Locally
