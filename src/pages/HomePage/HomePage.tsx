@@ -14,7 +14,10 @@ export const HomePage = () => {
 
   return (
     <Layout>
-      <section id="home" className="bg-base text-base px-6 py-24 md:py-32">
+      <section
+        id="home"
+        className="bg-base min-h-[calc(100vh-100px)] text-base px-6 py-24 md:py-32"
+      >
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           {/* LEFT – PHOTO */}
           <motion.div
@@ -26,7 +29,7 @@ export const HomePage = () => {
           >
             <div className="relative">
               <img
-                src="/me.jpg"
+                src="me.jpg"
                 alt="Profile photo"
                 className="w-72 h-72 md:w-[360px] md:h-[360px] rounded-3xl object-cover shadow-xl transition-all duration-300"
               />
@@ -57,7 +60,7 @@ export const HomePage = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <ButtonLink href="/JustynaFrankiewiczCV.pdf" download>
+              <ButtonLink href="JustynaFrankiewiczCV.pdf" download>
                 {t("home.downloadCv")}
               </ButtonLink>
 

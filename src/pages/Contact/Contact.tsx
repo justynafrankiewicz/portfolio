@@ -7,43 +7,53 @@ export const Contact = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="contact" className="bg-base text-base p-20 text-center">
-      <h2 className="text-3xl font-bold mb-8">{t("contact.title")}</h2>
+    <section
+      id="contact"
+      className="bg-base text-base flex flex-col justify-center items-center p-8 md:flex-row md:justify-around md:items-center min-h-[calc(100vh-80px)]"
+    >
+      <div className="flex flex-col items-center mb-8 md:mb-0 md:mr-8">
+        <h2 className="text-3xl font-bold mb-8">{t("contact.title")}</h2>
 
-      {/* Email */}
-      <ButtonLink
-        href="mailto:justa.frankiewicz@gmail.com"
-        className="inline-flex items-center justify-center space-x-2 mb-4"
-        variant="primary"
-      >
-        <Mail className="w-5 h-5" />
-        <span>{t("contact.email") || "Email Me"}</span>
-      </ButtonLink>
-
-      <div className="flex justify-center space-x-4 mt-4 flex-wrap">
-        {/* GitHub */}
         <ButtonLink
-          href="https://github.com/justynafrankiewicz"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center space-x-2"
-          variant="secondary"
+          href="mailto:justa.frankiewicz@gmail.com"
+          className="inline-flex w-auto max-w-xs items-center justify-center space-x-2 mb-4 mx-auto"
+          variant="primary"
         >
-          <Github className="w-5 h-5" />
-          <span>GitHub</span>
+          <Mail className="w-5 h-5" />
+          <span>{t("contact.email") || "Email Me"}</span>
         </ButtonLink>
 
-        {/* LinkedIn */}
-        <ButtonLink
-          href="https://www.linkedin.com/in/justyna-frankiewicz/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center space-x-2"
-          variant="secondary"
-        >
-          <Linkedin className="w-5 h-5" />
-          <span>LinkedIn</span>
-        </ButtonLink>
+        <div className="flex flex-col sm:flex-row justify-center sm:space-x-4 space-y-2 sm:space-y-0">
+          <ButtonLink
+            href="https://github.com/justynafrankiewicz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex w-auto items-center justify-center space-x-2"
+            variant="secondary"
+          >
+            <Github className="w-5 h-5" />
+            <span>GitHub</span>
+          </ButtonLink>
+
+          <ButtonLink
+            href="https://www.linkedin.com/in/justyna-frankiewicz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex w-auto items-center justify-center space-x-2"
+            variant="secondary"
+          >
+            <Linkedin className="w-5 h-5" />
+            <span>LinkedIn</span>
+          </ButtonLink>
+        </div>
+      </div>
+
+      <div className="flex justify-center items-center">
+        <img
+          src="goat.jpg"
+          alt="Illustration"
+          className="w-full max-w-sm md:max-w-md rounded-lg shadow-lg"
+        />
       </div>
     </section>
   );
