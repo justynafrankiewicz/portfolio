@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+
 import { techConst } from "./techConst";
+
 import type { Skill } from "../../types";
 
 export const Technologies = () => {
@@ -18,7 +20,7 @@ export const Technologies = () => {
   return (
     <section
       id="technologies"
-      className="bg-base text-base px-6 py-20"
+      className="bg-base text-base px-6 py-20 min-h-screen"
     >
       <h2 className="text-3xl font-bold mb-12 text-center">
         {t("technologies.title")}
@@ -33,9 +35,7 @@ export const Technologies = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.4 }}
           >
-            <h3 className="text-xl font-semibold mb-4 text-primary">
-              {category}
-            </h3>
+            <h3 className="text-xl font-semibold mb-4 text-gray">{category}</h3>
 
             <ul className="flex flex-wrap gap-3">
               {skills.map((skill) => (

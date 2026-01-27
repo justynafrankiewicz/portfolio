@@ -8,7 +8,6 @@ import {
   SiJavascript,
   SiMysql,
   SiPhp,
-  SiPostgresql,
   SiPrettier,
   SiReact,
   SiRedux,
@@ -38,11 +37,11 @@ export const techConst: Skill[] = [
     category: "Frontend",
     icon: <SiReact className="w-8 h-8 text-[#61DAFB]" />,
   },
-  {
-    name: "React Native",
-    category: "Frontend",
-    icon: <SiReact className="w-8 h-8 text-[#61DAFB]" />,
-  },
+  // {
+  //   name: "React Native",
+  //   category: "Frontend",
+  //   icon: <SiReact className="w-8 h-8 text-[#61DAFB]" />,
+  // },
   {
     name: "Redux / Redux Saga",
     category: "Frontend",
@@ -102,14 +101,11 @@ export const techConst: Skill[] = [
   },
   {
     name: "SQL",
-    category: "Database",
+    category: "Backend",
     icon: <SiMysql className="w-8 h-8 text-[#4479A1]" />,
   },
-  {
-    name: "PostgreSQL",
-    category: "Database",
-    icon: <SiPostgresql className="w-8 h-8 text-[#4169E1]" />,
-  }, // === Tools ===
+
+  // === Tools ===
   {
     name: "Vite",
     category: "Tools",
