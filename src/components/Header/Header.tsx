@@ -28,6 +28,9 @@ export const Header = () => {
         <NavButtonLink href="#experience">
           {t("experience.title")}
         </NavButtonLink>
+        <NavButtonLink href="#technologies">
+          {t("technologies.title")}
+        </NavButtonLink>
         <NavButtonLink href="#contact">{t("contact.title")}</NavButtonLink>
 
         <div className="flex items-center space-x-3 ml-4">

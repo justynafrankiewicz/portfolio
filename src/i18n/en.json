@@ -8,8 +8,8 @@
   "about": {
     "title": "About Me",
     "paragraphs": [
-      "I am a Frontend Developer with over 3 years of commercial experience, specializing in React. I became interested in programming during my first studies and quickly decided to pursue this path professionally.",
-      "I started my career as a Backend Developer, which gave me solid technical foundations and a good understanding of how applications work behind the scenes. At the same time, I had the opportunity to develop my frontend skills — and it was this area that turned out to be the most rewarding for me. Eventually, I decided to focus on building user interfaces, combining aesthetics with functionality.",
+      "I am a Frontend Developer with over 3 years of commercial experience, specializing in React. I became interested in programming during my first studies (Geophysics, AGH University of Science and Technology) and quickly decided to pursue this path professionally.",
+      "I started my career as a Backend Developer, which gave me solid technical foundations and a good understanding of how applications work behind the scenes. At the same time, I had the opportunity to develop my frontend skills — and it was this area that turned out to be the most rewarding for me. Currently, I focus on building user interfaces, combining aesthetics with functionality.",
       "I have experience working in a product-driven team environment, collaborating on a daily basis with other frontend and backend developers, as well as designers and the product team. I actively participated in code reviews, both as a reviewer and as someone receiving feedback, which helped me develop good engineering practices, responsibility for code quality, and strong technical communication skills.",
       "I enjoy experimenting with new technologies, continuously expanding my skill set, and sharing knowledge with other team members. Outside of work, I strive to maintain a healthy balance — in my free time I enjoy rock climbing, hiking in the mountains, and spending time close to nature."
     ]
@@ -25,6 +25,22 @@
       "bscGeoinformatics": "BSc – Geoinformatics",
       "mscAppliedGeophysics": "MSc – Applied Geophysics",
       "bscGeophysics": "BSc – Geophysics"
+    },
+    "educationDetails": {
+      "bscGeoinformatics": [
+        "Geoinformatics allowed me to combine IT technologies with spatial data analysis. During these studies, I worked with IT systems, large datasets, their structure, and processing. I developed skills that I directly use in my current work — logical thinking, data handling, and creating technology-based solutions.",
+        "Technologies: QGIS, PostGIS, Databases, C++, Python, JavaScript, Linux"
+      ],
+      "mscAppliedGeophysics": [
+        "Master's studies in Applied Geophysics allowed me to deepen my skills in advanced data analysis, working with more complex models, and independently solving research problems. A strong focus on precision, logical reasoning, and responsibility for result quality directly shaped my approach to software development.",
+        "Master's thesis: Comparative analysis of USGS and EMSC seismic catalogs in relation to the local LUMINEOS network catalog in the Legnica-Głogów Copper District area",
+        "Technologies: basic programming (C++), Matlab"
+      ],
+      "bscGeophysics": [
+        "Studies in Geophysics taught me analytical thinking and working with data from various sources. I gained experience in data processing, visualization, and interpretation, working with computer tools, and analyzing complex systems. These skills form a solid foundation for IT work, especially in programming and problem-solving.",
+        "Bachelor thesis: Analysis of seismicity occurring during the volcanic eruptions on the example of eruption: Mt St. Helens",
+        "Technologies: Unix, basic programming (C++), Matlab"
+      ]
     },
     "jobs": {
       "apriside": {

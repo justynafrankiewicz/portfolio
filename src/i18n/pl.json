@@ -8,8 +8,8 @@
   "about": {
     "title": "O mnie",
     "paragraphs": [
-      "Jestem Frontend Developerem z ponad 3-letnim doświadczeniem komercyjnym, specjalizującym się w pracy w React. Programowaniem zainteresowałam się podczas pierwszych studiów i szybko zdecydowałam się rozwijać tę ścieżkę zawodowo.",
-      "Swoją karierę zaczynałam jako Backend Developer, co dało mi solidne podstawy techniczne i dobre zrozumienie działania aplikacji od tej strony. Równolegle miałam jednak możliwość rozwijania się we frontendzie — i to właśnie ta część pracy okazała się dla mnie najbardziej satysfakcjonująca. Ostatecznie zdecydowałam się skoncentrować na tworzeniu interfejsów użytkownika, łącząc estetykę z funkcjonalnością.",
+      "Jestem Frontend Developerem z ponad 3-letnim doświadczeniem komercyjnym, specjalizującym się w pracy w React. Programowaniem zainteresowałam się podczas pierwszych studiów (geofizyka na Akademi Górniczo - Hutniczej w Krakowie) i szybko zdecydowałam się rozwijać tę ścieżkę zawodowo.",
+      "Swoją karierę zaczynałam jako Backend Developer, co dało mi solidne podstawy techniczne i dobre zrozumienie działania aplikacji od tej strony. Równolegle miałam jednak możliwość rozwijania się we frontendzie — i to właśnie ta część pracy okazała się dla mnie najbardziej satysfakcjonująca. Obecnie koncentruje się na tworzeniu interfejsów użytkownika, łącząc estetykę z funkcjonalnością.",
       "Mam doświadczenie w pracy zespołowej w środowisku produktowym — współpracowałam na co dzień z innymi frontend i backend developerami, a także z designerami i zespołem produktowym. Brałam aktywny udział w code review, zarówno w roli osoby przeglądającej kod, jak i otrzymującej feedback, co pozwoliło mi rozwijać dobre praktyki, odpowiedzialność za jakość i umiejętność konstruktywnej komunikacji technicznej.",
       "Lubię eksperymentować z nowymi technologiami, poszerzać swoje kompetencje i dzielić się wiedzą z innymi członkami zespołu. Poza pracą staram się zachować balans — w wolnym czasie wspinam się, chodzę po górach i najchętniej spędzam czas blisko natury."
     ]
@@ -25,6 +25,22 @@
       "bscGeoinformatics": "Studia I stopnia – Geoinformatyka",
       "mscAppliedGeophysics": "Studia II stopnia – Geofizyka stosowana",
       "bscGeophysics": "Studia I stopnia – Geofizyka"
+    },
+    "educationDetails": {
+      "bscGeoinformatics": [
+        "Geoinformatyka pozwoliła mi połączyć technologie informatyczne z analizą danych przestrzennych. Studiując ten kierunek, pracowałam z systemami informatycznymi, dużymi zbiorami danych oraz ich strukturą i przetwarzaniem. Rozwinęłam umiejętności, które bezpośrednio wykorzystuję w swojej obecnej pracy — logiczne myślenie, pracę z danymi oraz tworzenie rozwiązań opartych na technologii.",
+        "Technologie: QGIS, PostGIS, Bazy danych, C++, Python, JavaScript, Linux"
+      ],
+      "mscAppliedGeophysics": [
+        "Studia magisterskie z Geofizyki pozwoliły mi pogłębić umiejętności zaawansowanej analizy danych, pracy z bardziej złożonymi modelami oraz samodzielnego rozwiązywania problemów badawczych. Duży nacisk na precyzję, logiczne wnioskowanie i odpowiedzialność za jakość wyników przełożył się bezpośrednio na moje podejście do tworzenia oprogramowania.",
+        "Praca magisterska: Analiza porównawcza katalogów sejsmicznych USGS i EMSC w odniesieniu do katalogu wstrząsów pochodzących z sieci lokalnej LUMINEOS na obszarze Legnicko-Głogowskiego Okręgu Miedziowego",
+        "Technologie: podstawy programowania (C++), Matlab"
+      ],
+      "bscGeophysics": [
+        "Studia z Geofizyki nauczyły mnie analitycznego myślenia oraz pracy z danymi pochodzącymi z różnych źródeł. Zdobyłam doświadczenie w przetwarzaniu, wizualizacji i interpretacji danych, pracy z narzędziami komputerowymi oraz analizie złożonych systemów. Umiejętności te stanowią solidne fundamenty do pracy w IT, szczególnie w obszarze programowania i rozwiązywania problemów.",
+        "Praca inżynierska: Analiza sejsmiczności następującej podczas erupcji wulkanicznej na przykładzie erupcji Mt. St. Helens",
+        "Technologie: Unix, podstawy programowania (C++), Matlab"
+      ]
     },
     "jobs": {
       "apriside": {

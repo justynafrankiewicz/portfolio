@@ -20,7 +20,7 @@ export const Technologies = () => {
   return (
     <section
       id="technologies"
-      className="bg-base text-base px-6 py-20 min-h-screen"
+      className="bg-base text-base px-6 py-24 min-h-screen"
     >
       <h2 className="text-3xl font-bold mb-12 text-center">
         {t("technologies.title")}

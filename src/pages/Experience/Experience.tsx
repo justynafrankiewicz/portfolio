@@ -24,16 +24,34 @@ export const Experience = () => {
               title={t("experience.educationItems.agh")}
               subtitle={t("experience.educationItems.bscGeoinformatics")}
               period="2019 – 2022"
+              details={
+                t("experience.educationDetails.bscGeoinformatics", {
+                  returnObjects: true,
+                }) as string[]
+              }
+              imageSrc="public/geoinformatics.jpg"
             />
             <EducationItem
               title={t("experience.educationItems.agh")}
               subtitle={t("experience.educationItems.mscAppliedGeophysics")}
               period="2019 – 2020"
+              details={
+                t("experience.educationDetails.mscAppliedGeophysics", {
+                  returnObjects: true,
+                }) as string[]
+              }
+              imageSrc="public/geophysics.webp"
             />
             <EducationItem
               title={t("experience.educationItems.agh")}
               subtitle={t("experience.educationItems.bscGeophysics")}
               period="2015 – 2019"
+              details={
+                t("experience.educationDetails.bscGeophysics", {
+                  returnObjects: true,
+                }) as string[]
+              }
+              imageSrc="public/geophysics2.avif"
             />
           </div>
         </div>
